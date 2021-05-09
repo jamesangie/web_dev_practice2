@@ -1,0 +1,340 @@
+/* The general style starts here */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* the header style starts here */
+.header {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.315), rgba(0, 0, 0, 0.342)), url(https://www.trafalgar.com/real-word/wp-content/uploads/sites/3/2017/08/Playas-del-Coco-www.istockphoto.comgbphotoplayas-del-coco-guanacaste-costa-rica-at-dusk-gm477054068-66951325-Fertnig.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+}
+
+/* the navigation starts here */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    transition: font-size .5s;
+    padding: 0.5rem;
+}
+
+.item:hover {
+    border: 1px solid #fff;
+
+}
+/* the navigation ends here */
+
+.header-box {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 30%;
+
+    text-align: center;
+    padding: 1.5rem 1.2rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.719);
+}
+
+.header-title {
+    font-size: 3rem;
+    color: white;
+}
+
+.header-desc {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.header-link {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(255, 0, 0, 0.589));
+    border-radius: 100px;
+    padding: 1rem 1.2rem;
+    color: white;
+    display: inline-block;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.header-link:hover {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.418), rgba(0, 0, 0, 0.473));
+}
+
+/* the header ends here */
+
+
+/* the main start here */
+
+.services {
+    padding: 4rem 3rem;
+    background-color: rgb(26, 33, 37);
+}
+
+.services-content {
+    justify-content: center;
+    display: flex;
+}
+
+.service {
+    margin: 0 3rem;
+    padding: 3rem 2rem;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.623);
+    clip-path: polygon(0 10% , 100% 0 , 100% 90% , 0% 100%);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.603);
+
+}
+
+.service__title {
+    color: black;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.service__desc {
+    font-size: 1rem;
+    color: black;
+}
+
+/* the course start here */
+
+.courses {
+    padding: 4rem 6rem;
+    background-color: rgba(128, 128, 128, 0.137);
+}
+
+.title-content {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.7rem;
+    color: grey;
+    margin-top: 0;
+    box-shadow: 3px 3px 6px rgba(128, 128, 128, 0.562);
+    transition: all 0.5s;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+}
+
+.title:hover {
+    box-shadow: 6px 6px 12px rgba(128, 128, 128, 0.562);
+}
+
+.courses-content {
+    padding-top: 2rem;
+    display: flex;
+}
+
+.course {
+    margin: 0 1.8rem ;
+    width: 20%;
+    box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.596);
+    transition: all 0.3s;
+}
+
+.course:hover {
+    box-shadow: 4px 4px 6px rgba(128, 128, 128, 0.603);
+}
+
+.course__img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: all 0.3s;
+}
+
+.course__img--content {
+    background-color: black;
+}
+
+.course:hover .course__img {
+    opacity: 0.7;
+}
+
+.course__text {
+    padding: 0.8rem 1rem;
+}
+
+.course__title {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.course__author {
+    font-size: 0.9rem;
+    color: rgb(112, 111, 111);
+}
+
+.course__price {
+    text-align: right;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.star {
+    width: 7%;
+}
+
+/* the course end here */
+
+/* the about start here */
+
+.about {
+    padding: 8rem 6rem;
+    background-color: rgb(172, 169, 169);
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about__text {
+    background-color: honeydew;
+    width: 50%;
+    box-shadow: 4px 4px 6px rgba(128, 128, 128, 0.466);
+    padding: 1rem 2rem;
+    z-index: 1000;
+}
+
+.about__title {
+    justify-content: center;
+    display: flex;
+    margin: 1rem;
+    font-size: 3rem;
+    color: rgb(44, 44, 44);
+}
+
+.about__desc {
+    font-size: 1.5rem;
+    color: rgb(148, 144, 144);
+    padding: 0.7rem 1.3rem;
+}
+
+.about__img--content {
+    width: 50%;
+    z-index: 10;
+    transform: rotate(10deg);
+    margin-left: -4rem;
+}
+
+.about__img {
+    width: 80%;
+}
+
+
+
+/* the about end here */
+
+
+/* the user start here */
+
+.users {
+    padding: 8rem 4rem;
+    background-color: rgb(219, 219, 219);
+}
+
+.users-content {
+    display: flex;
+    justify-content: center;
+}
+
+.user {
+    width: 30%;
+    text-align: center;
+    box-shadow: 3px 3px 4px grey;
+    margin: 6rem 2rem;
+    background-color: honeydew;
+    padding-bottom: 2rem;
+}
+
+.user__img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 3rem;
+    justify-content: center;
+    margin-top: -3rem;
+    box-shadow: 2px 2px 4px grey;
+}
+
+.user__title {
+    font-size: 1.5rem;
+    color: #222;
+}
+
+.user__job {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.user__link {
+    color: black;
+    padding: 0.7rem 1rem;
+    border: 1px solid #999;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.user__link:hover {
+    color: yellow;
+    background-color: violet;
+}
+
+/* the user end here */
+
+
+/* the footer starts here */
+
+
+.footer {
+    background-color: #777;
+    text-align: center;
+    padding: 2rem 3rem;
+}
+
+.footer-text {
+    font-size: 1.5rem;
+}
+
+
+
